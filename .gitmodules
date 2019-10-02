@@ -1,3 +1,7 @@
 [submodule "themes/cupper"]
 	path = themes/cupper
 	url = git@github.com:zwbetz-gh/cupper-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:rohantmp/rohantmp.github.io.git
+	branch = master
