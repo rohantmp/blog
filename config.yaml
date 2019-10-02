@@ -1,0 +1,43 @@
+baseURL: https://rohantmp.github.com
+languageCode: en-us
+defaultContentLanguage: en
+title: Rohan
+theme: cupper
+enableGitInfo: true
+publishDir: rohantmp.github.io
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 99
+
+params:
+  description: Rohan's blog
+  homeMetaContent: Rohan's blog
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: someUser
+  katex: true
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
